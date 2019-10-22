@@ -1,0 +1,30 @@
+{
+    "learning_rate": 1e-3,
+    "batch_size": 32,
+    "grad_acc": 1,
+    "patience": 10,
+    "num_epochs": 10,
+
+    "train_embed": false,
+    "doc_length" : 8000,
+
+    "emb": "w2v",
+    "debug": false,
+
+    "dropout": 0.3,
+    "embed_dropout": 0.2,
+    "filters": 64,
+    "kernels": 3,
+
+    "model":"cnn_text_attn",
+    "task":"IsReadmitted_Bounceback",
+    "fold": 0,
+    "test_mode": true,
+
+    "save_summary_steps": 100,
+
+    "data_dir": "mimic_dir",
+    "local_data": "root_dir/data",
+    "save_path": "root_dir/saved_models",
+    "visualizations_path": "root_dir/visualizations"
+}
