@@ -11,7 +11,10 @@ Modify all of the file paths in `resources/params.json` according to your local 
 
 `python preprocess/word_embedding.py` 
 
-### Training Models
+## Training Models
 The hyperparameters can be modified in `resources/params.json`.
 
 `python train.py` 
+
+## Acknowledgments
+We adapt our preprocessing code from that released by [DeepEHR](https://github.com/NYUMedML/DeepEHR).
